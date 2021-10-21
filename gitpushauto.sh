@@ -1,6 +1,5 @@
 #!/bin/bash
 git add .
-
 git commit -m "updates"
-
-git push origin main 
+git branch -M main
+git push -u origin main 
